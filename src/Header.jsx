@@ -29,8 +29,8 @@ function Header(){
             
             <input className='hidden' value={isMenuOpen} onChange={handleMenu} id="menu" type="checkbox"></input>
 
-            <nav className={`animate-fade-right animate-once font-roboto font-semibold bg-[#00002E] pt-[40px] fixed h-screen top-0 bottom-0 right-0 left-0 text-center items-center flex flex-col gap-3 ${isMenuOpen ? 'hidden' : ''}
-            xl:block xl:relative xl:pt-0 xl:flex xl:flex-row xl:gap-8`}>
+            <nav className={`animate-fade-right animate-once font-roboto font-base text-xl bg-[#00002E] pt-[40px] fixed h-screen top-0 bottom-0 right-0 left-0 text-center items-center flex flex-col gap-3 ${isMenuOpen ? 'hidden' : ''}
+            xl:block xl:relative xl:pt-0 xl:flex xl:flex-row xl:gap-8 xl:text-lg`}>
                 <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">HOME</a>
                 <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">ABOUT ME</a>
                 <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">TECH STACK</a>
