@@ -16,20 +16,20 @@ function Header(){
     }
     
     return(
-        <header className=" max-w-screen-xl mx-auto h-[40px] flex justify-between items-center fixed left-0 right-0 px-[8px] animate-fade-down animate-once
-        sm:px-[48px] md:px-[88px] lg:px-[150px]">
+        <header className="max-w-screen-xl mx-auto h-12 flex justify-between items-center fixed left-0 right-0 px-2 animate-fade-down animate-once
+        sm:px-12 md:px-24 lg:px-36">
 
-            <h1 onClick={handleReload} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-bold cursor-pointer
-            lg:font-extrabold lg:text-lg">PORTFOLIO</h1>
+            <h1 onClick={handleReload} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit text-xl tracking-widest font-bold cursor-pointer
+            sm:text-2xl">PORTFOLIO</h1>
         
             <label htmlFor="menu" className={`${isMenuOpen ? 'z-0' : 'z-10'} 
             xl:hidden`}>
-                {isMenuOpen ? <GiHamburgerMenu size={25}/> : <RxCross2 size={35} />}
+                {isMenuOpen ? <GiHamburgerMenu size={40}/> : <RxCross2 size={40} />}
             </label>
             
             <input className='hidden' value={isMenuOpen} onChange={handleMenu} id="menu" type="checkbox"></input>
 
-            <nav className={`animate-fade-right animate-once font-roboto font-semibold bg-[#00002E] pt-[40px] fixed top-0 bottom-0 right-0 left-0 text-center items-center flex flex-col gap-3 ${isMenuOpen ? 'hidden' : ''}
+            <nav className={`animate-fade-right animate-once font-roboto font-semibold bg-[#00002E] pt-[40px] fixed h-screen top-0 bottom-0 right-0 left-0 text-center items-center flex flex-col gap-3 ${isMenuOpen ? 'hidden' : ''}
             xl:block xl:relative xl:pt-0 xl:flex xl:flex-row xl:gap-8`}>
                 <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">HOME</a>
                 <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">ABOUT ME</a>
