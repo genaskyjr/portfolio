@@ -1,1 +1,1 @@
-my portfolio react + tailwin
+my portfolio react + tailwind
