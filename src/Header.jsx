@@ -16,7 +16,7 @@ function Header(){
     }
     
     return(
-        <header className="max-w-screen-xl mx-auto h-12 flex justify-between items-center fixed left-0 right-0 px-2 animate-fade-down animate-once
+        <header className="animate-fade-down animate-once animate-duration-1000 animate-delay-100 max-w-screen-xl mx-auto h-12 flex justify-between items-center fixed left-0 right-0 px-2
         sm:px-12 md:px-24 lg:px-36">
 
             <h1 onClick={handleReload} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit text-xl tracking-widest font-bold cursor-pointer
