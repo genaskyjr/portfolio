@@ -1,6 +1,6 @@
 function About(){
     return(
-        <h>1</h>
+        
     )
 }
 
