@@ -16,10 +16,10 @@ function Hero(){
                     
             <p className='text-xs font-outfit font-bold text-center'>&bull; Willing to relocate &amp; Willing to be train.</p>
 
-            <section className='gap-2 flex justify-center'>
-                <button className='font-outfit font-semibold text-md pl-8 pr-8 bg-[#424C6F] rounded-lg'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> RESUME</button>
-                <button className='pl-2 pr-2 rounded-sm border-[#76BFE8] border-2 rounded-lg'><IoCall size={25} className='inline-block align-text-middle pb-[3px]'/></button>
-                <button className='pl-2 pr-2 rounded-sm border-[#76BFE8] border-2 rounded-lg'> <SiGmail size={25} className='inline-block align-text-middle pb-[3px]'/> <span className="icon-[logos--google-gmail]"></span></button>
+            <section className='gap-2 flex justify-center mt-1'>
+                <button className='font-outfit font-semibold text-md pl-8 pr-8 pt-2 pb-2 bg-[#424C6F] rounded-lg'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> RESUME</button>
+                <button className='pl-2 pr-2 rounded-lg bg-[#424C6F] '><IoCall size={25} className='inline-block align-text-middle pb-[3px]'/></button>
+                <button className='pl-2 pr-2 rounded-lg bg-[#424C6F] '> <SiGmail size={25} className='inline-block align-text-middle pb-[3px]'/> <span className="icon-[logos--google-gmail]"></span></button>
             </section>
 
         </section>
