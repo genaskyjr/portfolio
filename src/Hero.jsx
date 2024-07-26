@@ -8,7 +8,7 @@ function Hero(){
   
     return(
         
-        <section className=' inline-block w-full max-w-screen-xl mx-auto xl:flex xl:mt-28 lg:px-36'>
+        <section className=' mt-12 inline-block w-full max-w-screen-xl mx-auto xl:flex xl:mt-28 lg:px-36'>
             
             <img className='  w-40 mx-auto lg:order-2
             sm:w-44 md:w-48 xl:w-96 xl:mr-0' src={HeroImage}></img>
