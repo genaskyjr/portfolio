@@ -28,7 +28,7 @@ function Hero(){
                 <section className='gap-2 flex justify-center xl:justify-start mt-1'>
                     <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> CV</button>
                     <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><IoCall size={25} className='inline-block align-text-middle pb-[3px]'/></button>
-                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></button>
+                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 px-2 py-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></button>
                     <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={MessagerImage} alt="Gmail icon" /></button>
                 </section>
 
