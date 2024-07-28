@@ -109,9 +109,7 @@ function TechStacks(){
 
 
         <p className='font-outfit font-semibold mt-3 mb-1'>Upcoming / Depends on the company </p>
- 
             <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
-
                     <div className='w-full'>
                         <img className='' src={NextJs} alt="NextJs icon" />
                     </div>
@@ -123,12 +121,25 @@ function TechStacks(){
                     <div className='w-full'>
                         <img className='' src={Docker} alt="Docker icon" />
                     </div>
-
-                   
-
             </div>
 
 
+            
+            <p className='font-outfit font-semibold mt-3 mb-1'>Familiarity Coding Style </p>
+            <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 text-nowrap">
+
+                <div className='w-full'>
+                    <p>OOP</p>
+                </div>
+
+                <div className='w-full'>
+                    <p>MVC</p>
+                </div>
+
+                <div className='w-full'>
+                    <p>Solid Principle</p>
+                </div>
+            </div>
 
         </section>
     )
