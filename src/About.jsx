@@ -10,6 +10,7 @@ function About(){
     
             My <span className="text-[#76BFE8] font-extrabold">strong problem-solving abilities</span> and <span className="text-[#76BFE8] font-extrabold">dedication to producing high-quality code</span> make me a valuable asset to any development team.</p>
 
+            
         </section>
     )
 }
