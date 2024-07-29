@@ -29,7 +29,7 @@ function TechStacks(){
             <p className="text-center font-outfit font-semibold mb-4 text-lg
             sm:text-2xl md:text-3xl lg:text-4xl">Tech Stacks</p>
 
-            <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
+            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
 
                 <div className='w-full'>
                     <img className='' src={Html} alt="Html icon" />
@@ -64,7 +64,7 @@ function TechStacks(){
 
         <p className='font-outfit font-semibold mt-3 mb-1'>Familiar Stacks</p>
 
-        <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
+        <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
 
                 <div className='w-full'>
                     <img className='' src={TailWind} alt="TailWind icon" />
@@ -109,7 +109,7 @@ function TechStacks(){
 
 
         <p className='font-outfit font-semibold mt-3 mb-1'>Upcoming / Depends on the company </p>
-            <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
+            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
                     <div className='w-full'>
                         <img className='' src={NextJs} alt="NextJs icon" />
                     </div>
@@ -126,7 +126,7 @@ function TechStacks(){
 
             
             <p className='font-outfit font-semibold mt-3 mb-1'>Familiarity Coding Style </p>
-            <div class="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 text-nowrap">
+            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 text-nowrap">
 
                 <div className='w-full'>
                     <p>OOP</p>
