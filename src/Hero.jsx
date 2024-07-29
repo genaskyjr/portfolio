@@ -3,6 +3,10 @@ import { FaDownload } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import GmailImage from  './assets/gmail-icon.png';
 import MessagerImage from './assets/messager-icon.png';
+
+import { FaHeart } from "react-icons/fa";
+
+
 function Hero(){
 
   
@@ -23,7 +27,13 @@ function Hero(){
                 sm:text-4xl md:text-5xl lg:text-5xl'>Junior Web Developer</p>
                         
                 <p className=' font-outfit font-bold text-xs
-                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate &amp; Willing to be train.</p>
+                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate</p>
+
+                <p className=' font-outfit font-bold text-xs
+                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to train</p>
+
+                <p className=' font-outfit font-bold text-xs
+                sm:text-sm md:text-base lg:text-lg'>&bull; Im excited to work with a team.  <span className='animate-pulse animate-duration-1000 animate-delay-100 inline-block align-middle'><FaHeart size={25} /></span></p>
 
                 <section className='gap-2 flex justify-center xl:justify-start mt-1'>
                     <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> CV</button>
