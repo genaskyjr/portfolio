@@ -2,6 +2,8 @@ import InternImage from './assets/intern/front.jpg'
 import ThesisImage from './assets/thesis/front.jpg'
 import WebSysImage from './assets/websys/front.jpg'
 
+import { IoIosArrowDropdown } from "react-icons/io";
+
 import GitHub from './assets/GitHub.png'
 
 function Projects(){
@@ -12,40 +14,49 @@ function Projects(){
            <p className="text-center font-outfit font-semibold mb-4 text-lg
             sm:text-2xl md:text-3xl lg:text-4xl">Projects</p>
 
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3
+          
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-6
              ">
 
-                <div className='w-full bg-[#54608e] border-1 ring-inset rounded-lg font-roboto font-semibold'>
-                    <img className='rounded-t-md min-h-[60%]' src={InternImage}></img>
-                    <div className=' pt-3 pb-3'>
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className=' h-64'>
+                        <img className='rounded-t-lg object-cover h-full w-full' src={InternImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2'>
                         <p className='text-base text-center'>Document Approval System</p>
-                        <p className='text-base text-center'>Internship - Company</p>
+                        <p className='text-sm text-center'>Internship - Company</p>
                         <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
+                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility..</p>
                     </div>  
                 </div>
+
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className=' h-64 '>
+                        <img className='rounded-t-lg object-cover h-full w-full' src={ThesisImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2'>
+                        <p className='text-base text-center'>Noah's Ark Dog & Cat Shelter</p>
+                        <p className='text-sm text-center'>Thesis - Company</p>
+                        <img className='mx-auto' src={GitHub}></img>
+                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility</p>
+                    </div>  
+                </div>
+
+                                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className=' h-64  '>
+                        <img className='rounded-t-lg object-cover h-full w-full' src={WebSysImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2'>
+                        <p className='text-base text-center'>Document Approval System</p>
+                        <p className='text-sm text-center'>WebSys - Company</p>
+                        <img className='mx-auto' src={GitHub}></img>
+                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility..</p>
+                    </div>  
+                </div>
+
+
                 
-                <div className='w-full bg-[#54608e] border-1 ring-inset rounded-lg font-roboto font-semibold'>
-                    <img className='rounded-t-md min-h-[60%]' src={ThesisImage}></img>
-                    <div className=' pt-3 pb-3'>
-                        <p className='text-base text-center'>Noah's ark dog & Cat Shelter</p>
-                        <p className='text-base text-center'>Thesis - Subject</p>
-                        <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
-                    </div>  
-                </div>
-
-                <div className='w-full bg-[#54608e] border-1 ring-inset rounded-lg font-outfit font-semibold'>
-                    <img className='rounded-t-md min-h-[60%]' src={WebSysImage}></img>
-                    <div className=' pt-3 pb-3'>
-                        <p className='text-base text-center'>Coop Online Store</p>
-                        <p className='text-base text-center'>WebSys - Subject</p>
-                        <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
-                    </div>  
-                </div>
-
-
+        
             </div>
 
         </section>

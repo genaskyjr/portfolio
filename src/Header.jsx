@@ -36,7 +36,7 @@ function Header(){
             <h1 onClick={handleReload} className="hover:animate-wiggle hover:animate-infinite hover:opacity-90 font-outfit text-xl tracking-widest font-bold cursor-pointer
             sm:text-2xl">PORTFOLIO</h1>
         
-            <label htmlFor="menu" className={`${isMenuOpen ? 'z-0' : 'z-10'} 
+            <label htmlFor="menu" className={`${isMenuOpen ? 'z-0' : 'z-50'} 
             xl:hidden`}>
                 {isMenuOpen ? <GiHamburgerMenu size={40}/> : <RxCross2 size={40} />}
             </label>
