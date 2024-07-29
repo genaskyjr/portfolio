@@ -19,26 +19,29 @@ function Projects(){
              ">
 
                 <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
-                    <div className=' h-64'>
-                        <img className='rounded-t-lg object-cover h-full w-full' src={InternImage}></img>
+                    <div className='h-64 relative'>
+                        <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span>
+                        <img className=' rounded-t-lg object-cover h-full w-full' src={InternImage}></img>
                     </div>  
                     <div className=' pt-2 pb-2'>
                         <p className='text-base text-center'>Document Approval System</p>
                         <p className='text-sm text-center'>Internship - Company</p>
-                        <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility..</p>
+                        <img className='mx-auto w-8' src={GitHub}></img>
+                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
                     </div>  
+                   
                 </div>
 
                 <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
-                    <div className=' h-64 '>
+                    <div className=' h-64 z'>
                         <img className='rounded-t-lg object-cover h-full w-full' src={ThesisImage}></img>
                     </div>  
                     <div className=' pt-2 pb-2'>
                         <p className='text-base text-center'>Noah's Ark Dog & Cat Shelter</p>
                         <p className='text-sm text-center'>Thesis - Company</p>
-                        <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility</p>
+                        <img className='mx-auto w-8' src={GitHub}></img>
+                        <p className='text-sm text-[#5dc0f9] text-center '>Show responsibility..</p>
                     </div>  
                 </div>
 
@@ -49,8 +52,8 @@ function Projects(){
                     <div className=' pt-2 pb-2'>
                         <p className='text-base text-center'>Document Approval System</p>
                         <p className='text-sm text-center'>WebSys - Company</p>
-                        <img className='mx-auto' src={GitHub}></img>
-                        <p className='text-xs text-[#5dc0f9] text-center pl-4'>Show responsibility..</p>
+                        <img className='mx-auto w-8' src={GitHub}></img>
+                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
                     </div>  
                 </div>
 

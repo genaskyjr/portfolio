@@ -3,6 +3,9 @@ import Hero from './Hero.jsx'
 import About from './About.jsx'
 import TechStacks from './TechStacks.jsx'
 import Projects from './Projects.jsx'
+import Contact from './Contact.jsx'
+import Footer from './Footer.jsx'
+
 function App() {
   return (
     <>
@@ -11,6 +14,8 @@ function App() {
       <About />
       <TechStacks />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }
