@@ -1,5 +1,15 @@
+import { useState } from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
+
 function About(){
+
+    const [isExpand,setIsExpand] = useState(false)
+
+    function handleIsExpand(){
+        setIsExpand(!isExpand)
+    }
+
+
     return(
         <section id="about" className=" mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
@@ -13,9 +23,10 @@ function About(){
             sm:text-sm md:text-base lg:text-lg">I have dedication to be valuable asset to any development team.</p>
 
 
-            <IoIosArrowDropdown size={30} className="text-[#76BFE8] mx-auto"/>
+            <IoIosArrowDropdown size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : ""} text-[#76BFE8] mx-auto mt-2 hover:cursor-pointer`}/>
 
-            <div className="mx-auto flex flex-col gap-y-1 border p-4 max-w-screen-md">
+            <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
+            mx-auto flex flex-col gap-y-2 border p-4 max-w-screen-md`}>
 
             <p>i have 3 projects that made bootraps + custom css + php + mysql.</p><br></br><br></br>
 
