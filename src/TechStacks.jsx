@@ -24,7 +24,7 @@ import Docker from './assets/Docker.png'
 
 function TechStacks(){
     return (
-        <section id="tech" className="`mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
+        <section id="tech" className="mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
             
             <p className="text-center font-outfit font-semibold mb-4 text-lg

@@ -45,7 +45,7 @@ function Projects(){
                         <p className='text-xs '>&bull; Web Hosting: OrangeHost</p>
                         <p className='text-xs '>&bull; Domain: https://atsdasph.com</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
-                        <img className='pt-2 w-8' src={GitHub}></img>
+                        <a href='https://github.com/genaskyjr/document-approval-system'><img className='pt-2 w-8' src={GitHub}></img></a>
                     </div>  
                    
                 </div>
@@ -76,7 +76,7 @@ function Projects(){
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Additional: Google Maps API, Tensorflow-imageClassification, YoLoV5-Object Detection</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
-                        <img className='w-8 pt-2' src={GitHub}></img>
+                        <a href='https://github.com/genaskyjr/noah-ark'><img className='pt-2 w-8' src={GitHub}></img></a>
                     </div>  
                 </div>
 
@@ -102,7 +102,7 @@ function Projects(){
                         <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
-                        <img className='pt-2 w-8' src={GitHub}></img>
+                        <a href='https://github.com/genaskyjr/coop-online-store'><img className='pt-2 w-8' src={GitHub}></img></a>
                     </div>  
                 </div>
 

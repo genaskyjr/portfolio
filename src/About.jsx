@@ -28,11 +28,11 @@ function About(){
             <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
             mx-auto flex flex-col gap-y-2 border p-4 max-w-screen-md`}>
 
-            <p>i have 3 projects that made bootraps + custom css + php + mysql.</p><br></br><br></br>
+            <p>i have 3 projects that made bootraps + custom css + php + mysql.</p><br></br>
 
-            <p>after my last project intership(feb 14 - april 12).</p>
+            <p>after my last project internship(feb 14 - april 12).</p>
 
-            <p>i studied oop mvc solid in Php</p>
+            <p>i study oop mvc solid in Php</p>
 
             <p>then Vanilla Js, Css</p>
 
@@ -45,8 +45,7 @@ function About(){
             <p>Then i Build this Portfolio Vite React + Tailwind with github Version Control.</p><br></br>
 
             <p>you will see here every commits/changes:</p>
-            <p><a className="text-[#76BFE8]" href="https://github.com/genaskyjr/portfolio/commits/main/">https://github.com/genaskyjr/portfolio/commits/main/</a></p><br></br><br></br>
-
+            <p><a className="text-[#76BFE8]" href="https://github.com/genaskyjr/portfolio/commits/main/">Portfolio repository</a></p><br></br><br></br>
 
             <p>and now im looking for job ( august 1st )</p>
 
