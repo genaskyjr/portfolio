@@ -72,7 +72,7 @@ function TechStacks(){
             </div>
 
 
-        <p className='font-outfit font-semibold mt-5 mb-1'>Studied but not applied in real project</p>
+        <p className='font-outfit font-semibold mt-5 mb-1'>Familiar but not applied in real project</p>
 
         <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 font-outfit font-semibold">
 
@@ -120,7 +120,7 @@ function TechStacks(){
             </div>
 
 
-        <p className='font-outfit font-semibold mt-5 mb-1'>Upcoming / Depends on the company </p>
+        <p className='font-outfit font-semibold mt-5 mb-1'>Upcoming / Depends on my first company job </p>
             <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
                     <div className='w-full'>
                         <img className='' src={NextJs} alt="NextJs icon" />

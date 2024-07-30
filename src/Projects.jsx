@@ -29,31 +29,30 @@ function Projects(){
 
                 <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
                     <div className='h-64 relative'>
-                        <div className='absolute flex left-1 bottom-1 border rounded-sm p-1'>
-                            <img className='w-5' src={Html}></img> 
-                            <img className='w-5' src={Css}></img> 
-                            <img className='w-5' src={JavaScript}></img> 
-                            <img className='w-5' src={BootStrap}></img> 
-                            <img className='w-5' src={Php}></img> 
-                            <img className='w-5' src={MySQL}></img> 
-                            <img className='w-5' src={VS}></img> 
-                        </div>
-                        <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
-                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span>
+                        
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
                         <img className=' rounded-t-lg object-cover h-full w-full' src={InternImage}></img>
                     </div>  
-                    <div className=' pt-2 pb-2'>
-                        <p className='text-base text-center'>Document Approval System</p>
-                        <p className='text-sm text-center'>Internship - Company</p>
-                        <img className='mx-auto w-8' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>Document Approval System</p>
+                        <p className='text-sm '>Internship - Company</p>
+                        <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
+                        <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
+                        <p className='text-xs '>&bull; Database: MySql</p>
+                        <p className='text-xs '>&bull; Additional: Pdf-lib</p>
+                        <p className='text-xs '>&bull; Web Hosting: OrangeHost</p>
+                        <p className='text-xs '>&bull; Domain: https://atsdasph.com</p>
+                        <p className='text-xs '>&bull; Coding Style: Procedural</p>
+                        <img className='pt-2 w-8' src={GitHub}></img>
                     </div>  
                    
                 </div>
 
                 <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
                     <div className='h-64 relative'>
-                        <div className='absolute flex left-1 bottom-1 border rounded-sm p-1'>
+                        {/* <div className='absolute flex left-1 bottom-1 border rounded-sm p-1'>
                             <img className='w-5' src={Html}></img> 
                             <img className='w-5' src={Css}></img> 
                             <img className='w-5' src={JavaScript}></img> 
@@ -62,23 +61,28 @@ function Projects(){
                             <img className='w-5' src={MySQL}></img> 
                             <img className='w-5' src={VS}></img> 
                             <img className='w-5' src={Python}></img> 
-                        </div>
-                        <span className=' absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
-                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span>
+                        </div> */}
+                        {/* <span className=' absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
                         <img className='static rounded-t-lg object-cover h-full w-full' src={ThesisImage}></img>
                     </div>  
                     
-                    <div className=' pt-2 pb-2'>
-                        <p className='text-base text-center'>Noah's Ark Dog & Cat Shelter</p>
-                        <p className='text-sm text-center'>Thesis - Company</p>
-                        <img className='mx-auto w-8' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center '>Show responsibility..</p>
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base'>Noah's Ark Dog & Cat Shelter</p>
+                        <p className='text-sm'>Thesis - Company</p>
+                        <p className='text-xs  '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
+                        <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
+                        <p className='text-xs '>&bull; Database: MySql</p>
+                        <p className='text-xs '>&bull; Additional: Google Maps API, Tensorflow-imageClassification, YoLoV5-Object Detection</p>
+                        <p className='text-xs '>&bull; Coding Style: Procedural</p>
+                        <img className='w-8 pt-2' src={GitHub}></img>
                     </div>  
                 </div>
 
                 <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
                     <div className='h-64 relative'>
-                        <div className='absolute flex left-1 bottom-1 border rounded-sm p-1'>
+                        {/* <div className='absolute flex left-1 bottom-1 border rounded-sm p-1'>
                             <img className='w-5' src={Html}></img> 
                             <img className='w-5' src={Css}></img> 
                             <img className='w-5' src={JavaScript}></img> 
@@ -86,16 +90,19 @@ function Projects(){
                             <img className='w-5' src={Php}></img> 
                             <img className='w-5' src={MySQL}></img> 
                             <img className='w-5' src={VS}></img> 
-                        </div>
-                        <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
-                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span>
+                        </div> */}
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
                         <img className=' rounded-t-lg object-cover h-full w-full' src={WebSysImage}></img>
                     </div>    
-                    <div className=' pt-2 pb-2'>
-                        <p className='text-base text-center'>COOP Online Store</p>
-                        <p className='text-sm text-center'>WebSys - Subject</p>
-                        <img className='mx-auto w-8' src={GitHub}></img>
-                        <p className='text-sm text-[#5dc0f9] text-center'>Show responsibility..</p>
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>COOP Online Store</p>
+                        <p className='text-sm '>WebSys - Subject</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
+                        <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
+                        <p className='text-xs '>&bull; Database: MySql</p>
+                        <p className='text-xs '>&bull; Coding Style: Procedural</p>
+                        <img className='pt-2 w-8' src={GitHub}></img>
                     </div>  
                 </div>
 

@@ -48,8 +48,8 @@ function Header(){
             xl:block xl:relative xl:pt-0 xl:flex xl:flex-row xl:gap-8 xl:text-lg xl:h-0`}>
                 <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">HOME</a>
                 <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#about">ABOUT ME</a>
-                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#tech">TECH STACK</a>
                 <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#project">PROJECT</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#tech">TECH STACK</a>
                 <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#contact">CONTACT</a>
             </nav>
         </header>
