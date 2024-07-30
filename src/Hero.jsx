@@ -12,7 +12,7 @@ function Hero(){
   
     return(
         
-        <section className=' mt-12 inline-block w-full max-w-screen-xl mx-auto xl:flex xl:mt-28 lg:px-36'>
+        <section id="home" className=' mt-12 inline-block w-full max-w-screen-xl mx-auto xl:flex xl:mt-28 lg:px-36'>
             
             <img className='  w-40 mx-auto lg:order-2
             sm:w-44 md:w-48 xl:w-96 xl:mr-0' src={HeroImage}></img>
@@ -27,19 +27,21 @@ function Hero(){
                 sm:text-4xl md:text-5xl lg:text-5xl'>Junior Web Developer</p>
                         
                 <p className=' font-outfit font-bold text-xs
-                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate</p>
+                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate. </p>
 
                 <p className=' font-outfit font-bold text-xs
-                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to train</p>
+                sm:text-sm md:text-base lg:text-lg'>&bull; Willing to train. </p>
 
                 <p className=' font-outfit font-bold text-xs
-                sm:text-sm md:text-base lg:text-lg'>&bull; Im excited to work with a team.  <span className='animate-pulse animate-duration-1000 animate-delay-100 inline-block align-middle'><FaHeart size={25} /></span></p>
+                sm:text-sm md:text-base lg:text-lg'>&bull; Im excited to work with a team <span className='animate-pulse animate-duration-1000 animate-delay-100 
+                inline-block align-top'><FaHeart size={15} /></span></p>
 
                 <section className='gap-2 flex justify-center xl:justify-start mt-1'>
-                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> CV</button>
-                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><IoCall size={25} className='inline-block align-text-middle pb-[3px]'/></button>
-                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 px-2 py-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></button>
-                    <button className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={MessagerImage} alt="Messager icon" /></button>
+                    
+                    <a href='/pdf.pdf' target='_blank'  className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2 hover:cursor-pointer'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> CV</a>
+                    <a href='tel:+639287152180' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><IoCall size={25} className=''/></a>
+                    <a href="mailto:genaskypinlac0@gmail.com" className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 px-2 py-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></a>
+                    <a href='https://m.me/genaskyjr' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><img className='w-6' src={MessagerImage} alt="Messager icon" /></a>
                 </section>
 
             </section>

@@ -17,7 +17,7 @@ import GitHub from './assets/GitHub.png'
 
 function Projects(){
     return(
-        <section className="mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
+        <section id="project" className="animate-fade-down animate-once animate-duration-1000 animate-delay-100 mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
            
            <p className="text-center font-outfit font-semibold mb-4 text-lg

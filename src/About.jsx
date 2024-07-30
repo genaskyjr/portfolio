@@ -1,7 +1,7 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 function About(){
     return(
-        <section className=" mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
+        <section id="about" className=" mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
             <p className="text-center font-outfit font-semibold mb-4 text-lg
             sm:text-2xl md:text-3xl lg:text-4xl">About me</p>

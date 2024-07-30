@@ -9,6 +9,7 @@ function Header(){
     const [scrollY, setScrollY] = useState(0);
 
     function handleMenu(){
+        
         setIsMenuOpen(!isMenuOpen);
     }
 
@@ -45,11 +46,11 @@ function Header(){
 
             <nav className={`animate-fade-right animate-once font-roboto font-base text-xl bg-[#00002E] pt-[40px] fixed h-screen top-0 bottom-0 right-0 left-0 text-center items-center flex flex-col gap-3 ${isMenuOpen ? 'hidden' : ''}
             xl:block xl:relative xl:pt-0 xl:flex xl:flex-row xl:gap-8 xl:text-lg xl:h-0`}>
-                <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">HOME</a>
-                <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">ABOUT ME</a>
-                <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">TECH STACK</a>
-                <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">PROJECT</a>
-                <a className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">CONTACT</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#home">HOME</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#about">ABOUT ME</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#tech">TECH STACK</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#project">PROJECT</a>
+                <a onClick={handleMenu} className="hover:animate-wiggle hover:animate-infinite hover:opacity-75" href="#contact">CONTACT</a>
             </nav>
         </header>
     )
