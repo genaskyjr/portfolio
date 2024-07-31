@@ -23,7 +23,7 @@ function About(){
             sm:text-sm md:text-base lg:text-lg">I have dedication to be valuable asset to any development team.</p>
 
 
-            <IoIosArrowDropdown size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : ""} text-[#76BFE8] mx-auto mt-2 hover:cursor-pointer`}/>
+            <IoIosArrowDropdown size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-2 hover:cursor-pointer `}/>
 
 
             <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
