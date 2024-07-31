@@ -99,7 +99,7 @@ function Projects(){
                     <div className=' pt-2 pb-2 pl-3'>
                         <p className='text-base '>COOP Online Store</p>
                         <p className='text-sm '>WebSys - Subject</p>
-                        <p className='text-xs '>&bull; FE: Bootraps + custom css + AJAX + JQUERY</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
                         <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
