@@ -4,6 +4,8 @@ import { IoCall } from "react-icons/io5";
 import GmailImage from  './assets/gmail-icon.png';
 import MessagerImage from './assets/messager-icon.png';
 
+import Resume from './assets/web_developer_resume_genaskyjr.pdf';
+
 import { FaHeart } from "react-icons/fa";
 
 
@@ -38,7 +40,7 @@ function Hero(){
 
                 <section className='gap-2 flex justify-center xl:justify-start mt-1'>
                     
-                    <a href='./assets/web_developer_resume_genaskyjr.pdf' target='_blank'  className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2 hover:cursor-pointer'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> RESUME</a>
+                    <a href={Resume} target='_blank'  className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2 hover:cursor-pointer'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> RESUME</a>
                     <a href='tel:+639287152180' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><IoCall size={25} className=''/></a>
                     <a href="mailto:genaskypinlac0@gmail.com" className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 px-2 py-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></a>
                     <a href='https://m.me/genaskyjr' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><img className='w-6' src={MessagerImage} alt="Messager icon" /></a>
