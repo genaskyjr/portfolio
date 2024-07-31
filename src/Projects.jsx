@@ -38,11 +38,11 @@ function Projects(){
                         <p className='text-base '>Document Approval System</p>
                         <p className='text-sm '>Internship - Company</p>
                         <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
-                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
-                        <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css + AJAX + JQUERY</p>
+                        <p className='text-xs '>&bull; BE: PHP PHP-PDO, CRON Jobs</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Additional: Pdf-lib</p>
-                        <p className='text-xs '>&bull; Web Hosting: OrangeHost</p>
+                        <p className='text-xs '>&bull; Web Hosting: OrangeHost CPanel</p>
                         <p className='text-xs '>&bull; Domain: https://atsdasph.com</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
                         <a href='https://github.com/genaskyjr/document-approval-system'><img className='pt-2 w-8' src={GitHub}></img></a>
@@ -71,10 +71,11 @@ function Projects(){
                         <p className='text-base'>Noah's Ark Dog & Cat Shelter</p>
                         <p className='text-sm'>Thesis - Company</p>
                         <p className='text-xs  '>&bull; Responsibilty: Full Stack Developer</p>
-                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
-                        <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css + AJAX + JQUERY</p>
+                        <p className='text-xs '>&bull; BE: PHP PHP-PDO PYTHON BASH-SCRIPT</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Additional: Google Maps API, Tensorflow-imageClassification, YoLoV5-Object Detection</p>
+                        <p className='text-xs '>&bull; Web Hosting: VULTR VPS</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>
                         <a href='https://github.com/genaskyjr/noah-ark'><img className='pt-2 w-8' src={GitHub}></img></a>
                     </div>  
@@ -98,7 +99,7 @@ function Projects(){
                     <div className=' pt-2 pb-2 pl-3'>
                         <p className='text-base '>COOP Online Store</p>
                         <p className='text-sm '>WebSys - Subject</p>
-                        <p className='text-xs '>&bull; FE: Bootraps + custom css</p>
+                        <p className='text-xs '>&bull; FE: Bootraps + custom css + AJAX + JQUERY</p>
                         <p className='text-xs '>&bull; BE: PHP PHP-PDO</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
                         <p className='text-xs '>&bull; Coding Style: Procedural</p>

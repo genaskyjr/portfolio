@@ -13,7 +13,7 @@ function Contact(){
                     <input name="name" required className="w-full rounded-md p-2" type="text" placeholder="Your name"/>
                     <input name="email" required className="w-full rounded-md p-2" type="email" placeholder="Your email"/>
                     <textarea name="message"  required className="w-full rounded-md p-2 sm:col-span-2" type="text" placeholder="Your Message.."/>
-                    <button type="submit" className="sm:col-span-2 rounded-lg border-x-emerald-50 border-2 text-white p-2 w-[50%] mx-auto">Send Message</button>
+                    <button type="submit" className="hover:opacity-70 sm:col-span-2 rounded-lg border-x-emerald-50 border-2 text-white p-2 w-[50%] mx-auto">Send Message</button>
 
             </form>
 

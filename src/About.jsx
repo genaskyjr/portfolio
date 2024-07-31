@@ -25,42 +25,42 @@ function About(){
 
             <IoIosArrowDropdown size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : ""} text-[#76BFE8] mx-auto mt-2 hover:cursor-pointer`}/>
 
+
             <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
             mx-auto flex flex-col gap-y-2 border p-4 max-w-screen-md`}>
 
-            <p>i have 3 projects that made bootraps + custom css + php + mysql.</p><br></br>
+                <p>i have 3 projects that made bootraps + custom css + php + mysql.</p><br></br>
 
-            <p>after my last project internship(feb 14 - april 12).</p>
+                <p>after my last project internship(feb 14 - april 12).</p>
 
-            <p>i study oop mvc solid in Php</p>
+                <p>i study oop mvc solid in Php</p>
 
-            <p>then Vanilla Js, Css</p>
+                <p>then Vanilla Js, Css</p>
 
-            <p>then Github</p>
+                <p>then Github</p>
 
-            <p>then React</p>
+                <p>then React</p>
 
-            <p>then Tailwind</p>
+                <p>then Tailwind</p>
 
-            <p>Then i Build this Portfolio Vite React + Tailwind with github Version Control.</p><br></br>
+                <p>Then i Build this Portfolio Vite React + Tailwind with github Version Control.</p><br></br>
 
-            <p>you will see here every commits/changes:</p>
-            <p><a className="text-[#76BFE8]" href="https://github.com/genaskyjr/portfolio/commits/main/">Portfolio repository</a></p><br></br><br></br>
+                <p>you will see here every commits/changes:</p>
+                <p><a className="text-[#76BFE8]" href="https://github.com/genaskyjr/portfolio/commits/main/">Portfolio repository</a></p><br></br><br></br>
 
-            <p>and now im looking for job ( august 1st )</p>
+                <p>and now im looking for job ( august 1st )</p>
 
-            <p>and im ready to work with a team as</p><br></br>
+                <p>and im ready to work with a team as</p><br></br>
 
-            <p>General: associate web developer or junior web developer</p>
-            <p>Focus: junior Front-end developer</p>
-            <p>Focus: junior Back-end developer</p><br></br>
+                <p>General: associate web developer or junior web developer</p>
+                <p>Focus: junior Front-end developer</p>
+                <p>Focus: junior Back-end developer</p><br></br>
 
-            <p>I really love programming!</p><br></br>
+                <p>I really love programming!</p><br></br>
 
             </div>
 
-           
-
+    
          
 
         </section>
