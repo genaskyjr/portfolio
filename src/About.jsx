@@ -22,9 +22,11 @@ function About(){
             <p className="pt-3 text-center font-roboto font-semibold tracking-wide text-xs
             sm:text-sm md:text-base lg:text-lg">I have dedication to be valuable asset to any development team.</p>
 
+        
+            <IoIosArrowDropdown di="icon" size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-4 hover:cursor-pointer `}/>
 
-            <IoIosArrowDropdown size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-2 hover:cursor-pointer `}/>
-
+            <p onClick={handleIsExpand} className=' font-outfit font-bold text-xs
+                sm:text-sm md:text-base text-center'>Show more</p>
 
             <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
             mx-auto flex flex-col gap-y-2 border p-4 max-w-screen-md`}>
