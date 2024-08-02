@@ -4,7 +4,7 @@ import { IoCall } from "react-icons/io5";
 import GmailImage from  './assets/gmail-icon.png';
 import MessagerImage from './assets/messager-icon.png';
 
-import Resume from './assets/web_developer_resume_genaskyjr.pdf';
+import Resume from './assets/Pinlac-GenaskyJr-Web-Developer.pdf';
 
 import { FaHeart } from "react-icons/fa";
 
