@@ -26,17 +26,13 @@ function Hero(){
                 sm:text-3xl md:text-4xl lg:text-5xl'>I'am <span className='pl-1 text-[#76BFE8] font-outfit font-bold text-3xl
                 sm:text-4xl md:text-5xl lg:text-6xl'>Genasky Jr.</span></p>
                 <p className='text-[#5dc0f9] font-outfit font-bold mb-4  text-3xl
-                sm:text-4xl md:text-5xl lg:text-5xl'>Junior Web Developer</p>
+                sm:text-4xl md:text-5xl lg:text-5xl'>Web Developer</p>
                         
                 <p className=' font-outfit font-bold text-xs
                 sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate. </p>
 
                 <p className=' font-outfit font-bold text-xs
                 sm:text-sm md:text-base lg:text-lg'>&bull; Willing to train. </p>
-
-                <p className=' font-outfit font-bold text-xs
-                sm:text-sm md:text-base lg:text-lg'>&bull; Im excited to work with a team <span className='animate-pulse animate-duration-1000 animate-delay-100 
-                inline-block align-top'><FaHeart size={15} /></span></p>
 
                 <section className='gap-2 flex justify-center xl:justify-start mt-1'>
                     

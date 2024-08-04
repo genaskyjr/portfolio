@@ -72,18 +72,10 @@ function TechStacks(){
             </div>
 
 
-        <p className='font-outfit font-semibold mt-5 mb-1'>Familiar but not applied in real project</p>
+        <p className='font-outfit font-semibold mt-5 mb-1'>Familiar In</p>
 
         <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 font-outfit font-semibold">
 
-
-                <div className='w-full'>
-                    <img className='' src={Laravel} alt="Laravel icon" />
-                </div>
-
-                <div className='w-full'>
-                    <img className='' src={NodeJs} alt="NodeJs icon" />
-                </div>
 
                 <div className='w-full'>
                     <img className='' src={PostMan} alt="PostMan icon" />
@@ -119,21 +111,6 @@ function TechStacks(){
 
             </div>
 
-
-        <p className='font-outfit font-semibold mt-5 mb-1'>Upcoming / Depends on my first company job </p>
-            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
-                    <div className='w-full'>
-                        <img className='' src={NextJs} alt="NextJs icon" />
-                    </div>
-
-                    <div className='w-full'>
-                        <img src={Aws} alt="Aws icon" />
-                    </div>
-
-                    <div className='w-full'>
-                        <img className='' src={Docker} alt="Docker icon" />
-                    </div>
-            </div>
 
 
         
