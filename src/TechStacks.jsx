@@ -105,13 +105,14 @@ function TechStacks(){
                     <p>MVC</p>
                 </div>
 
-                <div className='w-full self-center text-nowrap'>
-                    <p className=''>Solid Principle</p>
+                <div className='w-full self-center'>
+                    <p className=''>Solid</p>
                 </div>
 
             </div>
 
 
+      
 
         
         </section>
