@@ -11,12 +11,12 @@ function About(){
 
 
     return(
-        <section id="about" className=" mt-12 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
+        <section id="about" className=" mt-8 p-5 bg-[#424C6F] border rounded-lg border-0 mx-2 max-w-screen-lg
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
             <p className="text-center font-outfit font-semibold mb-4 text-lg
             sm:text-2xl md:text-3xl lg:text-4xl">About me</p>
             <p className="text-center font-roboto font-semibold tracking-wide text-xs
-            sm:text-sm md:text-base lg:text-lg">I am passionate in <span className="text-[#76BFE8] font-extrabold text-lg">Web Development</span> with <span className="text-[#76BFE8] font-extrabold text-lg">Computer Science Degree</span> from <span className="text-[#76BFE8] font-extrabold">Don Honorio Ventura State University.</span> </p>
+            sm:text-sm md:text-base lg:text-lg">I am passionate in <span className="text-[#76BFE8] font-extrabold text-lg">Web Development</span> with <span className="text-[#76BFE8] font-extrabold text-lg">Computer Science Degree</span> from <span className="text-[#76BFE8] font-extrabold">Don Honorio Ventura State University Philippines.</span> </p>
 
     
             <IoIosArrowDropdown di="icon" size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-4 hover:cursor-pointer `}/>
