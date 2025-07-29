@@ -346,8 +346,9 @@ function Projects(){
                         <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
                         <p className='text-xs '>&bull; FE: React + NextJs</p>
                         <p className='text-xs '>&bull; BE: Node js, Express Js </p>
-                        <p className='text-xs '>&bull; Additional: Zod, Prisma ORM, Shandcn, Tailwind, TanStack Table, Axios</p>
+                        <p className='text-xs '>&bull; Additional: Zod, Prisma ORM, Shandcn, Tailwind, TanStack Table, Axios, Postman</p>
                         <p className='text-xs '>&bull; Database: MySql</p>
+                        <p className='text-xs '>&bull; Coding : REST API</p>
                         <button onClick={()=>{setIsOpen6(true)}} className='border p-1 ps-6 pe-6 rounded-sm shadow-lg mb-2 mt-2 hover:text-slate-700 hover:bg-slate-300'>View</button>
                         
                        
