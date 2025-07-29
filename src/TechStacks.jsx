@@ -29,6 +29,7 @@ import Express from './assets/express.png'
 import ShadCn from './assets/shadcn.png'
 import TypeScript from './assets/typescript.png'
 
+import Pwa from './assets/pwa.png'
 
 function TechStacks(){
     return (
@@ -113,6 +114,10 @@ function TechStacks(){
                     <img src={TypeScript} alt="TypeScript icon" />
                 </div>
 
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={Pwa} alt="Pwa icon" className='rounded-sm' />
+                </div>
+
 
 
 
@@ -151,36 +156,12 @@ function TechStacks(){
 
         <p className='font-outfit font-semibold mt-5 mb-1'>Skills</p>
 
-        <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 font-outfit font-semibold">
-
-
-    
-                <div className='w-full self-center'>
-                    <p>OOP</p>
-                </div>
-
-                <div className='w-full self-center'>
-                    <p>MVC</p>
-                </div>
-
-                <div className='w-full self-center'>
-                    <p className=''>SOLID Principle</p>
-                </div>
-
-                <div className='w-full self-center'>
-                    <p className=''>System Design</p>
-                </div>
-
-                <div className='w-full self-center'>
-                    <p className=''>Database Design</p>
-                </div>
-
-        </div>
-
-
-      
-
-        
+            <p>Object Oriented Programming</p>
+            <p>Model View Controller</p>
+            <p className=''>SOLID Principle</p>
+            <p className=''>System Design</p>
+            <p className=''>Database Design</p>
+ 
         </section>
     )
 }
