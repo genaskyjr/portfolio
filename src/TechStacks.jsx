@@ -27,6 +27,8 @@ import Prisma from './assets/prisma.png'
 import Express from './assets/express.png'
 
 import ShadCn from './assets/shadcn.png'
+import TypeScript from './assets/typescript.png'
+
 
 function TechStacks(){
     return (
@@ -100,11 +102,15 @@ function TechStacks(){
                 </div>
 
                 <div className='w-full mt-2 lg:mt-4'>
-                    <img src={Express} alt="Express icon" />
+                    <img src={Express} alt="Express icon" className='rounded-sm' />
                 </div>
 
                 <div className='w-full mt-1 lg:mt-2'>
-                    <img src={ShadCn} alt="Shadcn icon" />
+                    <img src={ShadCn} alt="Shadcn icon" className='rounded-sm' />
+                </div>
+
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={TypeScript} alt="TypeScript icon" />
                 </div>
 
 
