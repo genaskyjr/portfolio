@@ -16,8 +16,7 @@ function About(){
             <p className="text-center font-outfit font-semibold mb-4 text-lg
             sm:text-2xl md:text-3xl lg:text-4xl">About me</p>
             <p className="text-center font-roboto font-semibold tracking-wide text-xs
-            sm:text-sm md:text-base lg:text-lg">I am passionate in <span className="text-[#76BFE8] font-extrabold text-lg">Web Development</span> with <span className="text-[#76BFE8] font-extrabold text-lg">Computer Science Degree</span> from <span className="text-[#76BFE8] font-extrabold">Don Honorio Ventura State University.</span> With a proven passion for web development, 
-            I am eager to leverage my skills to create innovative digital experiences. </p>
+            sm:text-sm md:text-base lg:text-lg">I am passionate in <span className="text-[#76BFE8] font-extrabold text-lg">Web Development</span> with <span className="text-[#76BFE8] font-extrabold text-lg">Computer Science Degree</span> from <span className="text-[#76BFE8] font-extrabold">Don Honorio Ventura State University.</span> </p>
 
     
             <IoIosArrowDropdown di="icon" size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-4 hover:cursor-pointer `}/>

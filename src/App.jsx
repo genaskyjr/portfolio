@@ -12,8 +12,8 @@ function App() {
       
       <Header />
       <Hero />
-      <Projects />
       <About />
+      <Projects />
       <TechStacks />
       <Contact />
       <Footer />
