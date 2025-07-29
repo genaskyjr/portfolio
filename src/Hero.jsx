@@ -25,10 +25,10 @@ function Hero(){
                 <p className='animate-bounce mx-auto  animate-infinite font-outfit font-bold relative -z-10 text-2xl
                 sm:text-3xl md:text-4xl lg:text-5xl'>Hi There!</p>
                 <p className='font-outfit font-bold text-2xl 
-                sm:text-3xl md:text-4xl lg:text-5xl'>I'm <span className='pl-1 text-[#76BFE8] font-outfit font-bold text-3xl
-                sm:text-4xl md:text-5xl lg:text-6xl'>Genasky Jr.</span></p>
+                sm:text-3xl md:text-4xl lg:text-5xl'>I'm Genasky <span className='pl-1 text-[#76BFE8] font-outfit font-bold text-3xl
+                sm:text-4xl md:text-5xl lg:text-6xl'></span></p>
                 <p className='text-[#5dc0f9] font-outfit font-bold mb-4  text-3xl
-                sm:text-4xl md:text-5xl lg:text-5xl'>Web Developer</p>
+                sm:text-4xl md:text-5xl lg:text-5xl'>Full Stack Web Developer</p>
                         
                 <p className=' font-outfit font-bold text-xs
                 sm:text-sm md:text-base lg:text-lg'>&bull; Willing to relocate. </p>
@@ -41,7 +41,7 @@ function Hero(){
                     <a href={Resume} target='_blank'  className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 font-outfit font-semibold pl-8 pr-8 pt-1 pb-1 bg-[#424C6F] rounded-lg border-x-emerald-50 border-2 hover:cursor-pointer'> <FaDownload size={17} className='inline-block align-text-middle pb-[3px]'/> RESUME</a>
                     <a href='tel:+971543283661' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><IoCall size={25} className=''/></a>
                     <a href="mailto:genaskypinlac0@gmail.com" className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 px-2 py-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90'><img className='w-6' src={GmailImage} alt="Gmail icon" /></a>
-                    <a href='tel:+971543283661' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><img className='w-6' src={WhatsAppImage} alt="WhatsApp icon" /></a>
+                    <a href='https://wa.me/971543283661' className='hover:animate-wiggle hover:animate-infinite hover:opacity-75 pl-2 pr-2 rounded-lg bg-[#424C6F] border-x-emerald-50 border-2 hover:opacity-90 pt-1'><img className='w-6' src={WhatsAppImage} alt="WhatsApp icon" /></a>
                 
                 </section>
 

@@ -14,13 +14,24 @@ import Python from './assets/Python.png'
 import { IoIosArrowDropdown } from "react-icons/io";
 
 import GitHub from './assets/GitHub.png'
+
 import dasVideo from './assets/videos/das.mp4'
 import PayrollVideo from './assets/videos/payroll.mp4'
 import CashFlowVideo from './assets/videos/cashflow.mp4'
-import { useState } from 'react'
-import PayrollImage from './assets/images/payroll.png'
+import MyracleVideo from './assets/videos/myracle.mp4'
+import GiGaVideo from './assets/videos/giga.mp4'
+import PrimaVideo from './assets/videos/prima.mp4'
 
+import HappyVideo from './assets/videos/happy.mp4'
+
+import { useState } from 'react'
+
+import HappyImage from './assets/images/happy.png'
+import PayrollImage from './assets/images/payroll.png'
 import CashFlowImage from './assets/images/cashflow.png'
+import MyracleImage from './assets/images/myracle.png'
+import GigaImage from './assets/images/giga.png'
+import PrimaImage from './assets/images/prima.png'
 
 function Projects(){
 
@@ -33,12 +44,168 @@ function Projects(){
     //cashflow
     const [isOpen2, setIsOpen2] = useState(false)
 
+    //myracle
+    const [isOpen3, setIsOpen3] = useState(false)
 
+    //giga
+    const [isOpen4, setIsOpen4] = useState(false)
 
+    //prima
+    const [isOpen5, setIsOpen5] = useState(false)
+
+    //happytails
+    const [isOpen6, setIsOpen6] = useState(false)
 
     return(
         <>
 
+
+        {/* happy tails */}
+        <div className={`${isOpen6 ? 'visible' : 'hidden'}`}>
+            <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div class="bg-white rounded-2xl p-6 w-11/12 max-w-md mx-auto shadow-xl relative">
+                  
+                    <button onClick={()=>{setIsOpen6(false)}} class="absolute top-3 right-3 text-gray-500 hover:text-gray-800" onclick="document.getElementById('myModal').classList.add('hidden')">
+                    ✕
+                    </button>
+
+                   
+                    <h2 class="text-xl font-semibold mb-4 text-gray-600">Happy Tails (custom crm)</h2>
+                    
+                    <div className="images overflow-x-scroll">
+                        <div className="w-full aspect-video bg-black">
+                            <video
+                                className="w-full h-full"
+                                controls
+                                autoPlay
+                            >
+                                <source src={HappyVideo} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                  
+                    <div class="text-right ">
+                    <button onClick={()=>{setIsOpen6(false)}} class="bg-gray-300 text-gray-800 px-4 py-2 rounded mr-2 mt-4" onclick="document.getElementById('myModal').classList.add('hidden')">
+                        Close
+                    </button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {/* prima */}
+        <div className={`${isOpen5 ? 'visible' : 'hidden'}`}>
+            <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div class="bg-white rounded-2xl p-6 w-11/12 max-w-md mx-auto shadow-xl relative">
+                  
+                    <button onClick={()=>{setIsOpen5(false)}} class="absolute top-3 right-3 text-gray-500 hover:text-gray-800" onclick="document.getElementById('myModal').classList.add('hidden')">
+                    ✕
+                    </button>
+
+                   
+                    <h2 class="text-xl font-semibold mb-4 text-gray-600">PrimaVisio</h2>
+                    
+                    <div className="images overflow-x-scroll">
+                        <div className="w-full aspect-video bg-black">
+                            <video
+                                className="w-full h-full"
+                                controls
+                                autoPlay
+                            >
+                                <source src={PrimaVideo} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                  
+                    <div class="text-right ">
+                    <button onClick={()=>{setIsOpen5(false)}} class="bg-gray-300 text-gray-800 px-4 py-2 rounded mr-2 mt-4" onclick="document.getElementById('myModal').classList.add('hidden')">
+                        Close
+                    </button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {/* giga */}
+        <div className={`${isOpen4 ? 'visible' : 'hidden'}`}>
+            <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div class="bg-white rounded-2xl p-6 w-11/12 max-w-md mx-auto shadow-xl relative">
+                  
+                    <button onClick={()=>{setIsOpen4(false)}} class="absolute top-3 right-3 text-gray-500 hover:text-gray-800" onclick="document.getElementById('myModal').classList.add('hidden')">
+                    ✕
+                    </button>
+
+                   
+                    <h2 class="text-xl font-semibold mb-4 text-gray-600">GigaWattz Electrical</h2>
+                    
+                    <div className="images overflow-x-scroll">
+                        <div className="w-full aspect-video bg-black">
+                            <video
+                                className="w-full h-full"
+                                controls
+                                autoPlay
+                            >
+                                <source src={GiGaVideo} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                  
+                    <div class="text-right ">
+                    <button onClick={()=>{setIsOpen4(false)}} class="bg-gray-300 text-gray-800 px-4 py-2 rounded mr-2 mt-4" onclick="document.getElementById('myModal').classList.add('hidden')">
+                        Close
+                    </button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {/* myracle */}
+        <div className={`${isOpen3 ? 'visible' : 'hidden'}`}>
+            <div id="myModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div class="bg-white rounded-2xl p-6 w-11/12 max-w-md mx-auto shadow-xl relative">
+                  
+                    <button onClick={()=>{setIsOpen3(false)}} class="absolute top-3 right-3 text-gray-500 hover:text-gray-800" onclick="document.getElementById('myModal').classList.add('hidden')">
+                    ✕
+                    </button>
+
+                   
+                    <h2 class="text-xl font-semibold mb-4 text-gray-600">Myracle Innovation</h2>
+                    
+                    <div className="images overflow-x-scroll">
+                        <div className="w-full aspect-video bg-black">
+                            <video
+                                className="w-full h-full"
+                                controls
+                                autoPlay
+                            >
+                                <source src={MyracleVideo} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                  
+                    <div class="text-right ">
+                    <button onClick={()=>{setIsOpen3(false)}} class="bg-gray-300 text-gray-800 px-4 py-2 rounded mr-2 mt-4" onclick="document.getElementById('myModal').classList.add('hidden')">
+                        Close
+                    </button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         {/* cashflow */}
@@ -164,6 +331,89 @@ function Projects(){
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-6 
              ">
 
+
+
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className='h-64 relative'>
+                        
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
+                        <img className=' rounded-t-lg object-cover h-full w-full' src={HappyImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>Happy Tails (Custom CRM)</p>
+                        <p className='text-sm '>Happy Tails - Company</p>
+                        <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: React + NextJs</p>
+                        <p className='text-xs '>&bull; BE: Node js, Express Js </p>
+                        <p className='text-xs '>&bull; Additional: Zod, Prisma ORM, Shandcn, Tailwind, TanStack Table, Axios</p>
+                        <p className='text-xs '>&bull; Database: MySql</p>
+                        <button onClick={()=>{setIsOpen6(true)}} className='border p-1 ps-6 pe-6 rounded-sm shadow-lg mb-2 mt-2 hover:text-slate-700 hover:bg-slate-300'>View</button>
+                        
+                       
+                    </div>  
+                   
+                </div>
+
+
+
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className='h-64 relative'>
+                        
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
+                        <img className=' rounded-t-lg object-cover h-full w-full' src={PrimaImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>PrimaVisio</p>
+                        <p className='text-sm '>Myracle Innovation - Company</p>
+                        <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: HTML CSS JS BOOTRAPS</p>
+                        <button onClick={()=>{setIsOpen5(true)}} className='border p-1 ps-6 pe-6 rounded-sm shadow-lg mb-2 mt-2 hover:text-slate-700 hover:bg-slate-300'>View</button>
+                        
+                    </div>  
+                   
+                </div>
+
+
+
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className='h-64 relative'>
+                        
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
+                        <img className=' rounded-t-lg object-cover h-full w-full' src={GigaImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>GigaWatts Electrical</p>
+                        <p className='text-sm '>Myracle Innovation - Company</p>
+                        <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: HTML CSS JS BOOTRAPS</p>
+                        <button onClick={()=>{setIsOpen4(true)}} className='border p-1 ps-6 pe-6 rounded-sm shadow-lg mb-2 mt-2 hover:text-slate-700 hover:bg-slate-300'>View</button>
+                        
+                    </div>  
+                   
+                </div>
+
+
+                <div className='bg-[#54608e] rounded-lg font-roboto font-semibold'>
+                    <div className='h-64 relative'>
+                        
+                        {/* <span className='absolute bg-[#4e5b8c] pl-3 pr-3 pt-2 pb-2 rounded-md 
+                        h-max w-max mx-auto left-0 right-0 top-0 bottom-0 my-auto font-semibold font-roboto'>View Images</span> */}
+                        <img className=' rounded-t-lg object-cover h-full w-full' src={MyracleImage}></img>
+                    </div>  
+                    <div className=' pt-2 pb-2 pl-3'>
+                        <p className='text-base '>Myracle Innovation</p>
+                        <p className='text-sm '>Myracle Innovation - Company</p>
+                        <p className='text-xs '>&bull; Responsibilty: Full Stack Developer</p>
+                        <p className='text-xs '>&bull; FE: React + Tailwind</p>
+                        <button onClick={()=>{setIsOpen3(true)}} className='border p-1 ps-6 pe-6 rounded-sm shadow-lg mb-2 mt-2 hover:text-slate-700 hover:bg-slate-300'>View</button>
+                        
+                       
+                    </div>  
+                   
+                </div>
 
 
 

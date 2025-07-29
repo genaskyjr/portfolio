@@ -20,7 +20,13 @@ import NextJs from './assets/Next.js.png'
 import Aws from './assets/Amazon Web Services.png'
 import Docker from './assets/Docker.png'
 
+import Zod from './assets/zod.png'
+import Axios from './assets/axios.png'
+import Prisma from './assets/prisma.png'
 
+import Express from './assets/express.png'
+
+import ShadCn from './assets/shadcn.png'
 
 function TechStacks(){
     return (
@@ -28,9 +34,10 @@ function TechStacks(){
         sm:mx-12 md:mx-24 lg:mx-36 xl:mx-auto">
             
             <p className="text-center font-outfit font-semibold mb-4 text-lg
-            sm:text-2xl md:text-3xl lg:text-4xl">Tech Stacks</p>
+            sm:text-2xl md:text-3xl lg:text-4xl">Tech Stacks / Tools</p>
 
-            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0">
+
+            <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-4">
 
                 <div className='w-full'>
                     <img className='' src={Html} alt="Html icon" />
@@ -68,8 +75,46 @@ function TechStacks(){
                     <img src={ReactJs} alt="ReactJs icon" />
                 </div>
 
+                <div className='w-full'>
+                    <img src={NextJs} alt="NextJS icon" />
+                </div>
+
+                <div className='w-full'>
+                    <img className='' src={PostMan} alt="PostMan icon" />
+                </div>
+            
+                <div className='w-full'>
+                    <img className='' src={GitHub} alt="GitHub icon" />
+                </div>
+
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={Zod} alt="Zod icon" />
+                </div>
+
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={Axios} alt="Axios icon" />
+                </div>
+
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={Prisma} alt="Prisma icon" />
+                </div>
+
+                <div className='w-full mt-2 lg:mt-4'>
+                    <img src={Express} alt="Express icon" />
+                </div>
+
+                <div className='w-full mt-1 lg:mt-2'>
+                    <img src={ShadCn} alt="Shadcn icon" />
+                </div>
+
+
+
 
             </div>
+
+
+            
+
 
 
         <p className='font-outfit font-semibold mt-5 mb-1'>Familiar In</p>
@@ -77,12 +122,9 @@ function TechStacks(){
         <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 font-outfit font-semibold">
 
 
+
                 <div className='w-full'>
-                    <img className='' src={PostMan} alt="PostMan icon" />
-                </div>
-                
-                <div className='w-full'>
-                    <img className='' src={GitHub} alt="GitHub icon" />
+                    <img className='' src={Laravel} alt="Laravel icon" />
                 </div>
                
                 <div className='w-full'>
@@ -97,6 +139,16 @@ function TechStacks(){
                     <img src={Python} alt="Python icon" />
                 </div>
 
+        </div>
+
+
+
+        <p className='font-outfit font-semibold mt-5 mb-1'>Skills</p>
+
+        <div className="grid grid-cols-8 gap-2 lg:grid-cols-10 lg:gap-1 xl:grid-cols-12 xl:gap-0 font-outfit font-semibold">
+
+
+    
                 <div className='w-full self-center'>
                     <p>OOP</p>
                 </div>
@@ -106,10 +158,18 @@ function TechStacks(){
                 </div>
 
                 <div className='w-full self-center'>
-                    <p className=''>Solid</p>
+                    <p className=''>SOLID Principle</p>
                 </div>
 
-            </div>
+                <div className='w-full self-center'>
+                    <p className=''>System Design</p>
+                </div>
+
+                <div className='w-full self-center'>
+                    <p className=''>Database Design</p>
+                </div>
+
+        </div>
 
 
       
