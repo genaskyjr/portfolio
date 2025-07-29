@@ -161,6 +161,7 @@ function TechStacks(){
             <p className=''>SOLID Principle</p>
             <p className=''>System Design</p>
             <p className=''>Database Design</p>
+            <p>Progressive Web Apps</p>
  
         </section>
     )
