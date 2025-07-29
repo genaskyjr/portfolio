@@ -19,9 +19,9 @@ function About(){
             sm:text-sm md:text-base lg:text-lg">I am passionate in <span className="text-[#76BFE8] font-extrabold text-lg">Web Development</span> with <span className="text-[#76BFE8] font-extrabold text-lg">Computer Science Degree</span> from <span className="text-[#76BFE8] font-extrabold">Don Honorio Ventura State University Philippines.</span> </p>
 
     
-            <IoIosArrowDropdown di="icon" size={30} onClick={handleIsExpand} className={`${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-4 hover:cursor-pointer `}/>
+            <IoIosArrowDropdown di="icon" size={30} onClick={handleIsExpand} className={`hidden ${isExpand ? "rotate-180 " : "animate-bounce mx-auto  animate-infinite"} text-[#76BFE8] mx-auto mt-4 hover:cursor-pointer `}/>
 
-            <p onClick={handleIsExpand} className='font-outfit font-bold text-xs
+            <p onClick={handleIsExpand} className=' hidden font-outfit font-bold text-xs
                 sm:text-sm md:text-base text-center mt-0'>Show more</p>
 
             <div className={`${isExpand ? "mt-3 animate-fade-down animate-once animate-duration-1000 animate-delay-100" : "hidden "} 
